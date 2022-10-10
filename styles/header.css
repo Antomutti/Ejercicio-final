@@ -1,0 +1,47 @@
+header{
+    height: 4rem;
+    width: 100%;
+    background-color:rgb(202, 82, 112);
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra1{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    margin: 20px;
+}
+
+.barrai a{
+    font-family:"alkalami" ;
+    font-size:30px;
+    text-decoration: none;
+    color: rgb(29, 194, 78);
+}
+
+.barra2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.barra{
+    width: 110%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra button{
+    text-align: center;
+    height: 3rem;
+    width: 8rem;
+    font-family: "Alkalami";
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(16, 143, 73);
+    border-radius: 10%;
+    background-color: red;
+}
